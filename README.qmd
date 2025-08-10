@@ -1,0 +1,66 @@
+---
+title: "Why Your Vote Matters: An interactive look at the effects of Politics on Global Economics over Time"
+format: html
+editor: visual
+---
+
+Through the use of an interactive, time-lapse map, we leverage data from the World Bank Group DataBank to begin an exploratory analysis of localized political events and their influence on economic indicators across the globe from 1960 to 2024.
+
+This project features an interactive web application built with R and Shiny to visualize country-level Gross Domestic Product (GDP) and poverty rates (those living under \$4.20/day) for each year.
+
+Users can move a time-slider to see how the global economic landscape has changed and how these changes correlate with significant political events in localized areas of the world.
+
+##### **Live Demo & Project Links**
+
+-   **🚀 Live Application:** `[http://0ll75a-tanya-d0costa.shinyapps.io/project]`
+
+-   \*\* KAGGLE NOTEBOOK:\*\* `[https://www.kaggle.com/code/tanyaleena/why-your-vote-matters-politics-global-economics]`
+
+### ✨ **Features**
+
+-   **Interactive World Map:** A sleek, dark-theme map built with Leaflet.
+
+-   **Time-Series Animation:** A slider allows users to select any year from 1960 to 2018, animating the changes on the map over time.
+
+-   **Dual-Variable Visualization:**
+
+    -   **Color:** Represents a country's GDP on a Red-Yellow-Green scale (Red = Low GDP, Green = High GDP).
+
+    -   **Color Intensity (Opacity):** Represents the poverty rate, with more intense colors indicating higher poverty.
+
+-   **Dynamic Hover Labels:** Hovering over a country displays its name, GDP, and poverty rate for the selected year, hiding any missing data points for a cleaner UI.
+
+-   **Static Information Panel:** Displays key political events and leadership in the United States for the selected year, providing rich context to the economic data.
+
+### **Demo GIF**
+
+This GIF showcases the core functionality of the application, including the time-slider and hover-over data labels.
+
+![](images/clipboard-1721271175.gif)
+
+### **🛠️ Technical Stack**
+
+-   **Language:** R
+
+-   **Core Packages:** Shiny (web framework), Leaflet (interactive maps), sf (geospatial data), dplyr & tidyr (data manipulation), RColorBrewer (color palettes).
+
+-   **Deployment:** The live application is hosted on shinyapps.io.
+
+### **How to Run This Project Locally**
+
+To run this application on your own machine, follow these steps:
+
+1.  **Clone the repository:**
+
+```         
+git clone [https://github.com/tanyadcosta-alt/worldpulse.git]
+```
+
+2.  **Open the project** in RStudio.
+3.  **Install the required packages** by running the following command in the R console:
+
+``` r
+install.packages(c("shiny", "leaflet", "sf", "dplyr", "shinythemes", "RColorBrewer", "htmltools"))
+```
+
+4.  **Run the application** by opening the `app.R` file and clicking "Run App" in RStudio.
