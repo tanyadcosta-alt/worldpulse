@@ -12,7 +12,7 @@ Users can move a time-slider to see how the global economic landscape has change
 
 ##### **Live Demo & Project Links**
 
--   **🚀 Live Application:** `[http://0ll75a-tanya-d0costa.shinyapps.io/project]`
+-   **🚀 Live Application:** `[http://0ll75a-tanya-d0costa.shinyapps.io/project/]`
 
 -   \*\* KAGGLE NOTEBOOK:\*\* `[https://www.kaggle.com/code/tanyaleena/why-your-vote-matters-politics-global-economics]`
 
